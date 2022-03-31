@@ -1,0 +1,123 @@
+:root{
+  --max-width: 1100px;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: white;
+  color: #333;
+}
+.py0{
+  padding: 1.8rem 0;
+}
+.py1{
+  padding: 1.3rem 0.2rem;
+}
+.my1{
+  margin: 0.3rem;
+}
+.bg_1{
+  background: #2d5dcc;
+}
+.bg_2{
+  background: #d957d9;
+}
+.bg_3{
+  background: #4fe0b0;
+}
+.bg_4{
+  background: #cfd09a;
+}
+.hd{
+  padding: 1rem 1rem 1rem 0;
+  text-decoration: underline;
+}
+
+#home{
+  width: 1200px;
+}
+.container1{
+  width: var(--max-width);
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-left: 4.8rem;
+}
+.fonts .container{
+  padding-bottom: 0.8rem;
+}
+header h1{
+  padding: 2rem 0;
+}
+.colors, .fonts, .text_styles{
+  display: inline-block;
+  padding: 0.3rem;
+  border: 2px solid black;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_styles * div{
+  padding-left: 2rem;
+}
+.text_styles, .fonts, .colors{
+  width: 100%;
+}
+
+.box_color{
+  display: inline-block;
+  width: 350px;
+  height: 100px;
+  margin: 0.8rem 0;
+}
+
+.box_color p{
+  padding: 1rem;
+}
+.fonts .flex .row{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+ 
+}
+.fonts .flex .row .column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+
+}
+.box_font{
+  max-width: 540px;
+  line-height: 1.4;
+  padding-right: 2.4rem;
+  flex: 100%;
+  background: white;
+}
+.box_font .hd + p  {
+  font-size: 19px;
+}
+.box_font .hd + p + p  {
+  font-size: 21px;
+}
+.box_font .hd + p + p + p {
+  font-size: 21px;
+}
+
+
+.text_styles h1, .text_styles h2, .text_styles {
+  padding: 0.8rem 0 0.8rem 0;
+}
+.paragraph_text{
+  padding: 1rem 0;
+}
+.paragraph_text > P{
+  padding-bottom: 1rem;
+}
+.text_styles ul li p{
+  line-height: 1.3;
+}
